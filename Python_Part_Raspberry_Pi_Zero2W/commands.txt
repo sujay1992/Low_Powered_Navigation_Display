@@ -1,0 +1,7 @@
+python3 -m venv tmpenv --system-site-packages
+cd tmpenv
+source bin/activate
+#commands
+pip install adafruit-blinka
+pip install adafruit-circuitpython-rgb-display
+deactivate
